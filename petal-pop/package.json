@@ -1,0 +1,19 @@
+{
+  "name": "petal-pop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "consul": "node scripts/consul.mjs",
+    "ui": "node ui/server.js",
+    "start": "node scripts/start-all.mjs",
+    "bouquet": "node bouquet-service/index.js",
+    "appointments": "node appointment-service/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
